@@ -1,4 +1,6 @@
-class Team {
+import 'package:equatable/equatable.dart';
+
+class Team extends Equatable {
   int mId;
   String mImgPath;
 
@@ -6,4 +8,10 @@ class Team {
     mId = id;
     mImgPath = imgPath;
   }
+
+  @override
+  List<Object> get props => [mId, mImgPath];
+
+  @override
+  bool get stringify => true;
 }
