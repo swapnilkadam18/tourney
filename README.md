@@ -1,6 +1,6 @@
 # tourney
 
-A new Flutter project.
+TDD for tournament controller app using Cubit.
 
 ## Getting Started
 
